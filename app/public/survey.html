@@ -40,7 +40,7 @@
           <option value="5"> 5 (Strongly Agree</option>
       </select>
      <br><br>
-     <h3>
+     <!-- <h3>
             <strong>Question 2</strong>
         </h3>
         <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
@@ -156,10 +156,49 @@
                <option value="3"> 3</option>
                <option value="4"> 4</option>
                <option value="5"> 5 (Strongly Agree</option>
-           </select>
+           </select> -->
            <br><br> <br><br>
-           <button class="btn btn-primary btn-lg"  type="submit" name="action" id="submitButton"> Submit</button>
+           <button id="submit" class="btn btn-primary btn-lg"  type="submit" name="action" id="submitButton"> Submit</button>
 
+
+        <script type="text/javascript">
+
+$("#submit").on("click", function(event) {
+    event.preventDefault();
+
+ var questionResponse = {
+     
+    name: $('#userName').val().trim(),
+    image: $('#userPhoto').val().trim(),
+    scores:[
+        $('#Q1').val().trim(),
+        $('#Q2').val().trim(),
+        $('#Q3').val().trim(),
+        $('#Q4').val().trim(),
+        $('#Q5').val().trim(),
+        $('#Q6').val().trim(),
+        $('#Q7').val().trim(),
+        $('#Q8').val().trim(),
+        $('#Q9').val().trim(),
+        $('#Q10').val().trim()
+    ]
+};
+
+$.post("/api/friends", questionResponse,
+    function(data) {
+
+$('#userMatch').html(data.matchName);
+
+$("#userMatchImage").attr("src", data.matchImage);
+
+    });
+
+});
+
+    </script>
+        
 
 </body>
 </html>
+
+

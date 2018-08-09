@@ -3,7 +3,7 @@
 // also be used to handle the compatibility logic.
 
 var friendsData = require("../data/friends.js");
-
+var path =require('path');
 
 // ROUTING
 
@@ -22,17 +22,17 @@ module.exports = function(app) {
     var matchImage = '';
     var totalDifference = 2000;
 //for all the differnet friends in the list
-    for (var i=0; i<friends.length; i++){
+    for (var i=0; i<friendsData.length; i++){
 
 //for each question
 var diff = 0;
 for (var j=0; j< userResponse.length; j++){
-    diff += Math.abs(friends[i].score[j]- userResponse[j]);
+    diff += Math.abs(friendsData[i].score[j]- userResponse[j]);
 }
  if (diff< totalDifference){
      totalDifference = diff;
-     matchName = friends[i].name;
-     matching =friends[i].image;
+     matchName = friendsData[i].name;
+     matching =friendsData[i].image;
  }
     }
     });

@@ -1,4 +1,4 @@
-var friendsArray=[
+var friendsData=[
     {
 name:"Aquarius",
 image:'scr="images/aquarius.pnj"',
@@ -192,4 +192,4 @@ scores:[
 }
 ]
 
-module.exports = friendsArray;
+module.exports = friendsData;
