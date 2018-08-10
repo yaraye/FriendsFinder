@@ -15,8 +15,8 @@ module.exports = function(app) {
   
     app.post("/api/friends", function(req, res) {
     //  WRITE THE LOGIC HERE
-    var userInput = req.body;
-    var userResponse = userInput.scores;
+    var nameInput = req.body;
+    var userResponse = nameInput.scores;
 
     var matchName = '';
     var matchImage = '';
