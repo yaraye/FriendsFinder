@@ -3,12 +3,11 @@ var bodyParser = require('body-parser');
 var path = require('path');
 
 var app = express();
-var PORT = process.env.PORT || 7005;
+var PORT = process.env.PORT || 7009;
 
 
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
-
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -20,5 +19,5 @@ require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
 
 //listening on PORT
 app.listen(PORT, function() {
-  console.log('friendFinder app is listening on PORT: ' + PORT);
+  console.log('friendFinder app is listening on PORT:http://localhost:' + PORT);
 });

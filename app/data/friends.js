@@ -1,193 +1,194 @@
 var friendsData=[
     {
-name:"Aquarius",
-image:'scr="images/aquarius.pnj"',
-scores:[ 
-    5,
-    1,
-    4,
-    4,
-    5,
-    1,
-    2,
-    5,
-    4,
-    1
+ 'name':"Aquarius",
+ 'image':'src="../data/images/aquarius.pnj.jpg"',
+ 'scores':[ 
+    '5',
+    '1',
+    '4',
+    '4',
+    '5',
+    '1',
+    '2',
+    '5',
+    '4',
+    '1'
 ]
 },
 {
-name:"Aries",
-image:'scr="images/aries.pnj"',
-scores:[ 
-    5,
-    1,
-    1,
-    1,
-    5,
-    1,
-    2,
-    4,
-    4,
-    1
+ 'name':"Aries",
+ 'image':'src="../data/images/aquarius.pnj.jpg"',
+  'scores':[ 
+    '5',
+    '1',
+    '1',
+    '1',
+    '5',
+    '1',
+    '2',
+    '4',
+    '4',
+    '1'
 ]
 },
 {
-name:"Cancer",
-image:'scr="images/cancer.pnj"',
-scores:[ 
-    5,
-    3,
-    2,
-    1,
-    5,
-    4,
-    2,
-    4,
-    4,
-    1
+ 'name':"Cancer",
+ 'image': 'src="../data/images/cancer.pnj.jpg"',
+  'scores':[ 
+    '5',
+    '3',
+    '2',
+    '1',
+    '5',
+    '4',
+    '2',
+    '4',
+    '4',
+    '1'
 ]
 },
 {
-name:"Capricorn",
-image:'scr="images/capricorn.pnj"',
-scores:[ 
-    1,
-    2,
-    3,
-    1,
-    4,
-    1,
-    1,
-    1,
-    4,
-    1
+ 'name':"Capricorn",
+ 'image': 'src="../data/images/capricorn.pnj.jpg"',
+  'scores':[ 
+    '1',
+    '2',
+    '3',
+    '1',
+    '4',
+    '1',
+    '1',
+    '1',
+    '4',
+    '1'
 ]
 },
 {
-name:"Gemini",
-image:'scr="images/gemini.pnj"',
-scores:[ 
-    5,
-    2,
-    3,
-    1,
-    4,
-    1,
-    2,
-    1,
-    4,
-    1
+ 'name':"Gemini",
+ 'image': 'src="../data/images/gemini.pnj.jpg"',
+  'scores':[ 
+    '5',
+    '2',
+    '3',
+    '1',
+    '4',
+    '1',
+    '2',
+    '1',
+    '4',
+    '1'
 ]
 },
 {
-name:"Leo",
-image:'scr="images/leo.pnj"',
-scores:[ 
-    1,
-    4,
-    2,
-    4,
-    1,
-    1,
-    1,
-    4,
-    4,
-    1
+ 'name':"Leo",
+ 'image': 'src="../data/images/leo.pnj.jpg"',
+  'scores':[ 
+    '1',
+    '4',
+    '2',
+    '4',
+    '1',
+    '1',
+    '1',
+    '4',
+    '4',
+    '1'
 ]
 },
 {
-name:"Libra",
-image:'scr="images/libra.pnj"',
-scores:[ 
-    3,
-    2,
-    1,
-    1,
-    3,
-    4,
-    1,
-    4,
-    2,
-    1
+ 'name':"Libra",
+ 'image': 'src="../data/images/libra.pnj.jpg"',
+  'scores':[ 
+    '3',
+    '2',
+    '1',
+    '1',
+    '3',
+    '4',
+    '1',
+    '4',
+    '2',
+    '1'
 ]
 },
 {
-name:"Pisces",
-image:'scr="images/pisces.pnj"',
-scores:[ 
-    3,
-    5,
-    1,
-    1,
-    5,
-    4,
-    1,
-    4,
-    2,
-    1
+ 'name':"Pisces",
+ 'image': 'src="../data/images/pisces.pnj.jpg"',
+  'scores':[ 
+    '3',
+    '5',
+    '1',
+    '1',
+    '5',
+    '4',
+    '1',
+    '4',
+    '2',
+    '1'
 ]
 },
 {
-name:"Sagittarius",
-image:'scr="images/sagittarius.pnj"',
-scores:[ 
-    3,
-    2,
-    5,
-    1,
-    2,
-    4,
-    1,
-    4,
-    5,
-    1
+ 'name':"Sagittarius",
+ 'image': 'src="../data/images/sagittarius.pnj.jpg"',
+  'scores':[ 
+    '3',
+    '2',
+    '5',
+    '1',
+    '2',
+    '4',
+    '1',
+    '4',
+    '5',
+    '1'
 ]
 },
 {
-name:"Scorpio",
-image:'scr="images/scorpio.pnj"',
-scores:[ 
-    5,
-    2,
-    4,
-    1,
-    3,
-    4,
-    1,
-    4,
-    2,
-    5
+ 'name':"Scorpio",
+ 'image': 'src="../data/images/scorpio.pnj.jpg"',
+  'scores':[ 
+    '5',
+    '2',
+    '4',
+    '1',
+    '3',
+    '4',
+    '1',
+    '4',
+    '2',
+    '5'
 ]
 },
 {
-name:"Taurus",
-image:'scr="images/taurus.pnj"',
-scores:[ 
-    1,
-    3,
-    4,
-    1,
-    5,
-    4,
-    3,
-    4,
-    2,
-    1
+ 'name':"Taurus",
+ 'image': 'src="../data/images/taurus.pnj.jpg"',
+  'scores':[ 
+    '1',
+    '3',
+    '4',
+    '1',
+    '5',
+    '4',
+    '3',
+    '4',
+    '2',
+    '1'
 ]
 },
 {
-name:"Virgo",
-image:'scr="images/virgo.pnj"',
-scores:[ 
-        3,
-        5,
-        2,
-        1,
-        3,
-        2,
-        1,
-        5,
-        2,
+ 'name':"Virgo",
+ 'image': 'src="../data/images/virgo.pnj.jpg"',
+  'scores':[ 
+        '3',
+        '5',
+        '2',
+        '1',
+        '3',
+        '2',
+        '1',
+        '5',
+        '2',
+        '1'
 ]
 }
 ]

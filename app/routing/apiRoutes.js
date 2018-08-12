@@ -9,38 +9,52 @@ var path =require('path');
 
 module.exports = function(app) {
     
-    app.get("/api/friends", function(req, res) {
-      res.json(friends);
+    app.get("/api/friendsData", function(req, res) {
+      res.json(friendsData);
     });
   
-    app.post("/api/friends", function(req, res) {
-    //  WRITE THE LOGIC HERE
-    var nameInput = req.body;
-    var userResponse = nameInput.scores;
+    app.post("/api/friendsData", function(req, res) {
 
-    var matchName = '';
-    var matchImage = '';
-    var totalDifference = 2000;
-//for all the differnet friends in the list
-    for (var i=0; i<friendsData.length; i++){
+    //create an array to store the name and image
+
+    var bestMatch = {
+        name: "",
+        image: "",
+        friendDifference: 2000
+      };
+
+    var userData = req.body;
+    var userScores = userData.scores;
+
+    console.log(userScores);
+    var totalDifference = 0;
+
+//for all the different friends in the list
+for (var i=0; i<friendsData.length; i++){
 
 //for each question
-var diff = 0;
-for (var j=0; j< userResponse.length; j++){
-    diff += Math.abs(friendsData[i].score[j]- userResponse[j]);
-}
- if (diff< totalDifference){
-     totalDifference = diff;
-     matchName = friendsData[i].name;
-     matching =friendsData[i].image;
+totalDifference = 0;
+for (var j=0; j< friendsData[i].scores[j]; j++){
+    
+    totalDifference += Math.abs(parseInt(friendsData[i].scores[j]) - parseInt(userScores[j]));
+    console.log(totalDifference);
+
+ if (totalDifference<= bestMatch.friendDifference){
+  
+    bestMatch.name = friendsData[i].name;
+    bestMatch.image = friendsData[i].image;
+    bestMatch.friendDifference = totalDifference;
  }
     }
-    });
-  
+} 
+      //push to the array 
+      friendsData.push(userData);
 
-    app.post("/api/clear", function() {
-  
-      friendsData = [];  
+      console.log(friendsData);
+      //return json back
+      res.json(bestMatch);
+
+
     });
 };
   
