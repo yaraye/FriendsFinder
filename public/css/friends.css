@@ -20,4 +20,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     /* background-color:rgb(0,255,0);opacity:0.6; */
 }
-
+img{
+    width: 450px;
+    height: 300px;
+}
