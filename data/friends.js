@@ -1,7 +1,7 @@
 var friendsData=[
     {
  'name':"Aquarius",
- 'image':'src="../data/images/aquarius.pnj.jpg"',
+ 'image':"/images/aquarius.pnj.jpg",
  'scores':[ 
     '5',
     '1',
@@ -17,7 +17,7 @@ var friendsData=[
 },
 {
  'name':"Aries",
- 'image':'src="../data/images/aquarius.pnj.jpg"',
+ 'image':"/images/aquarius.pnj.jpg",
   'scores':[ 
     '5',
     '1',
@@ -33,7 +33,7 @@ var friendsData=[
 },
 {
  'name':"Cancer",
- 'image': 'src="../data/images/cancer.pnj.jpg"',
+ 'image': "/images/cancer.pnj.jpg",
   'scores':[ 
     '5',
     '3',
@@ -49,7 +49,7 @@ var friendsData=[
 },
 {
  'name':"Capricorn",
- 'image': 'src="../data/images/capricorn.pnj.jpg"',
+ 'image': "/images/capricorn.pnj.jpg",
   'scores':[ 
     '1',
     '2',
@@ -65,7 +65,7 @@ var friendsData=[
 },
 {
  'name':"Gemini",
- 'image': 'src="../data/images/gemini.pnj.jpg"',
+ 'image': "/images/gemini.pnj.jpg",
   'scores':[ 
     '5',
     '2',
@@ -81,7 +81,7 @@ var friendsData=[
 },
 {
  'name':"Leo",
- 'image': 'src="../data/images/leo.pnj.jpg"',
+ 'image': "/images/leo.pnj.jpg",
   'scores':[ 
     '1',
     '4',
@@ -97,7 +97,7 @@ var friendsData=[
 },
 {
  'name':"Libra",
- 'image': 'src="../data/images/libra.pnj.jpg"',
+ 'image': "/images/libra.pnj.jpg",
   'scores':[ 
     '3',
     '2',
@@ -113,7 +113,7 @@ var friendsData=[
 },
 {
  'name':"Pisces",
- 'image': 'src="../data/images/pisces.pnj.jpg"',
+ 'image': "/images/pisces.pnj.jpg",
   'scores':[ 
     '3',
     '5',
@@ -129,7 +129,7 @@ var friendsData=[
 },
 {
  'name':"Sagittarius",
- 'image': 'src="../data/images/sagittarius.pnj.jpg"',
+ 'image': "/images/sagittarius.pnj.jpg",
   'scores':[ 
     '3',
     '2',
@@ -145,7 +145,7 @@ var friendsData=[
 },
 {
  'name':"Scorpio",
- 'image': 'src="../data/images/scorpio.pnj.jpg"',
+ 'image': "/images/scorpio.pnj.jpg",
   'scores':[ 
     '5',
     '2',
@@ -161,7 +161,7 @@ var friendsData=[
 },
 {
  'name':"Taurus",
- 'image': 'src="../data/images/taurus.pnj.jpg"',
+ 'image': "/images/taurus.pnj.jpg",
   'scores':[ 
     '1',
     '3',
@@ -177,7 +177,7 @@ var friendsData=[
 },
 {
  'name':"Virgo",
- 'image': 'src="../data/images/virgo.pnj.jpg"',
+ 'image': "/images/virgo.pnj.jpg",
   'scores':[ 
         '3',
         '5',
