@@ -19,8 +19,8 @@ Installation
 
 To install the application follow the instructions below:
 
-git clone 
-cd friend-finder
+git clone https://github.com/yaraye/FriendsFinder.git
+cd FriendsFinder
 npm install
 
 
